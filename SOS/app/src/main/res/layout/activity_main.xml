@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_google_signin_btn_text_dark"
+    android:orientation="vertical"
+
+    android:visibility="visible"
+    tools:context="com.example.sos.MainActivity"
+    tools:visibility="visible">
+
+
+    <Button
+        android:id="@+id/Button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:background="@color/black"
+        android:text="@string/add_emergency_contact"
+        android:textColor="#FFEB3B"
+        app:rippleColor="#F6F6F6"
+        tools:ignore="TextContrastCheck" />
+
+
+    <ListView
+        android:id="@+id/ListView"
+        android:layout_width="match_parent"
+        android:layout_height="362dp"
+        android:background="@android:color/primary_text_dark"
+        android:visibility="visible">
+
+    </ListView>
+
+    <Button
+        android:id="@+id/Button5"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:onClick="SosClick"
+        android:text="@string/police"
+        android:textColor="#FFEB3B"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:onClick="SosClick1"
+        android:text="@string/ambulance"
+        android:textColor="#FFEB3B"
+        android:textColorHighlight="#E91E63" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:onClick="SosClick2"
+        android:text="@string/fire"
+        android:textColor="#FFEB3B" />
+
+
+</LinearLayout>

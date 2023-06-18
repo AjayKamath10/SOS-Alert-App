@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SOS</string>
+    <string name="sos">SOS</string>
+    <string name="add_emergency_contact">Add Emergency Contact</string>
+    <string name ="police">Police</string>
+    <string name = "ambulance">Ambulance</string>
+    <string name = "fire">Fire</string>
+</resources>
